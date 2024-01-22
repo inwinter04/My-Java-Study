@@ -18,5 +18,10 @@ public class StringDemo2 {
         String s3 = new String("abc");
         System.out.println(s3);
 
+        String ss1 = "abc";
+        String ss2 = "a" + "b" + "c";
+        System.out.println(ss1 == ss2);
+
     }
+
 }
